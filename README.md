@@ -44,4 +44,4 @@ Projeto privado — arquitetura e case disponíveis para apresentação em entre
 
 ## Contato
 
-[LinkedIn](https://www.linkedin.com/in/joão-pedro-p-16066028b)
+[LinkedIn](https://www.linkedin.com/in/joão-pedro-p-16066028b) · joaopedriix@gmail.com · [GitHub](https://github.com/joaopedriix)
