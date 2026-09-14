@@ -1,47 +1,47 @@
 # João Pedro
 
-Desenvolvedor Full-Stack — Next.js, TypeScript, PostgreSQL.
+Desenvolvedor Full Stack focado em aplicações web, SaaS, integrações e automações.
 
-Foco em problemas que separam júnior de pleno: isolamento multi-tenant, rate
-limiting distribuído, integrações OAuth com APIs externas e pipelines de CI
-com testes de integração reais.
+## Stack principal
+
+`TypeScript` `React` `Next.js` `Node.js` `PostgreSQL` `Prisma` `Supabase` `REST APIs` `Git` `Vercel`
+
+Também uso: `Redis` `NextAuth/OAuth` `Row-Level Security` `Playwright` `Tailwind CSS`
 
 ## Projetos em destaque
 
-**[MetaHub](https://github.com/joaopedriix/projetosaas)** — SaaS multi-tenant
-de analytics para anúncios Meta (Facebook/Instagram). Arquitetura em camadas,
-isolamento de dados sempre resolvido no servidor, rate limiting distribuído
-via Redis, integração OAuth com a Meta Graph API. CI com Postgres em
-container rodando lint, typecheck, testes unitários, testes de integração e
-build antes de qualquer merge.
-`Next.js 16` `TypeScript` `Prisma` `PostgreSQL` `Redis` `NextAuth`
-
-**[SaaS Construtora](https://github.com/joaopedriix/SaaSConstrutora)** — ERP
-para construtoras com Row-Level Security real no Postgres (4 camadas de
-isolamento) e auditoria imutável via `REVOKE` no banco. RBAC por ação,
-desenhado para evitar o overengineering do sistema legado que substitui.
-`Next.js` `Prisma` `PostgreSQL` `NextAuth`
-
-**[Controle Financeiro](https://github.com/joaopedriix/controle-financeiro)**
-— produto próprio vendendo ativamente via Hotmart.
-`HTML/CSS/JS` `Vercel`
-
-**[Paula Lourenço Store](https://github.com/joaopedriix/paula-lourenco-store)**
-— e-commerce de moda feminina com checkout via WhatsApp, carrinho
-persistente e favoritos.
-`Next.js 16` `TypeScript` `Tailwind v4`
-
-**[Betel Sistema de Gestão](https://github.com/joaopedriix/Betel-Company-Sistema-Gestao)**
-— sistema multitenant de gestão de eventos, geração automática de tarefas
-pós-fechamento de contrato via triggers no banco.
-`Next.js` `Supabase` `PostgreSQL`
-
 **[Calculadora ITCMD](https://github.com/joaopedriix/calculadora-itcmd)** —
-calculadora de imposto por índice UFESP para óbitos antigos, com scraping
-serverless via Chromium headless (SEFAZ-SP não expõe API).
-`Next.js` `TypeScript` `Playwright`
+calculadora de imposto por índice UFESP para óbitos antigos (SP). Importação
+automática da base oficial da SEFAZ-SP via Chromium headless (Playwright,
+página sem API), conversão monetária histórica entre padrões (Cruzeiro →
+Real) e testes automatizados.
+`Next.js` `TypeScript` `Playwright` `Zod`
+[Demo](https://calculadora-itcmd.vercel.app)
 
-## Stack
+**[Controle Financeiro Premium](https://github.com/joaopedriix/controle-financeiro-premium)** —
+app de controle financeiro pessoal com autenticação por magic link,
+sincronização de dados na nuvem e PWA instalável.
+`JavaScript` `Supabase Auth` `PWA`
+[Demo](https://controle-financeiro-premium-flax.vercel.app)
 
-`TypeScript` `Next.js` `React` `PostgreSQL` `Prisma` `Redis` `Supabase`
-`Tailwind CSS` `NextAuth` `REST APIs` `OAuth 2.0`
+**[Paula Lourenço Store](https://github.com/joaopedriix/paula-lourenco-store)** —
+e-commerce de moda feminina com carrinho persistente, favoritos e checkout
+via WhatsApp.
+`Next.js 16` `TypeScript` `Tailwind v4`
+[Demo](https://paula-lourenco-store.vercel.app)
+
+**SaaS de analytics para anúncios Meta** — arquitetura multi-tenant com
+isolamento de dados por empresa, integração OAuth com a Meta Graph API, rate
+limiting via Redis e CI com Postgres real (lint, typecheck, testes de
+integração, build).
+`Next.js` `Prisma` `PostgreSQL` `Redis` `NextAuth`
+Projeto privado — arquitetura e case disponíveis para apresentação em entrevista.
+
+**ERP multi-tenant para construtoras** — Row-Level Security real no Postgres,
+RBAC por ação e auditoria imutável no banco.
+`Next.js` `Prisma` `PostgreSQL` `NextAuth`
+Projeto privado — arquitetura e case disponíveis para apresentação em entrevista.
+
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/joão-pedro-p-16066028b)
